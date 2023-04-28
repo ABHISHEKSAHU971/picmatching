@@ -1,0 +1,32 @@
+.ft {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    transform: rotateY(90deg);
+}
+
+.bk {
+    width: 100px;
+    height: 100px;
+}
+
+.card-grid {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.card {
+    position: relative;
+}
+
+.card img {
+    display: block;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.flipped .ft {
+    transform: rotateY(0deg);
+}
